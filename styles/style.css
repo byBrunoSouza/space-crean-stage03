@@ -5,7 +5,7 @@
 }
 
 :root {
-  --fs-text: 1.6rem;
+  --fs-text: 1.4rem;
   --fs-heading: 4rem;
 }
 
@@ -48,6 +48,7 @@ main {
 }
 
 .texting-primary {
+  font-size: var(--fs-text);
   font-family: "Palanquin", sans-serif;
   padding: 3.2rem 3.2rem;
 
