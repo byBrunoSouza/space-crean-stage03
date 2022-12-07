@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --fs-text: 1.6rem;
+  --fs-heading: 4rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  margin: 0 auto;
+  font-family: "Staatliches", cursive;
+}
+
+header {
+  padding: 3.2rem 0;
+  background-color: #8e9aaf;
+  text-align: center;
+}
+
+header > img {
+  margin-bottom: 1.8rem;
+}
+
+header > h1 {
+  font-size: var(--fs-heading);
+  background-color: #cbc0d3;
+  padding: 8px 16px;
+
+  text-transform: uppercase;
+  color: #fff;
+}
+
+main {
+  background-color: #eff1ff;
+
+  padding: 0 3.2rem;
+
+  display: grid;
+
+  gap: 3.2rem;
+}
+
+.texting-primary {
+  font-family: "Palanquin", sans-serif;
+  padding: 3.2rem 3.2rem;
+
+  text-align: center;
+}
+
+figure {
+  position: relative;
+}
+
+figure > img {
+  width: 100%;
+  border-radius: 1.6rem;
+}
+
+figure h2 {
+  position: absolute;
+  color: #4a4e69;
+  top: 16px;
+  right: 16px;
+
+  background-color: #feeafa;
+  border-radius: 2rem;
+  padding: 8px;
+  letter-spacing: 4px;
+}
