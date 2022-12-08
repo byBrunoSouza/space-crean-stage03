@@ -75,3 +75,40 @@ figure h2 {
   padding: 8px;
   letter-spacing: 4px;
 }
+
+@keyframes dowtop {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes topdow {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+figure {
+  animation-name: dowtop;
+  animation-duration: 0.7s;
+  /* animation-direction: alternate-reverse; */
+  /* animation-iteration-count: infinite; */
+  animation-delay: 0.2s;
+}
+
+figure > h2 {
+  animation: topdow 0.9s;
+  animation-delay: 0.3s;
+  /* animation-iteration-count: infinite; */
+}
